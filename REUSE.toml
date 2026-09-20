@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "pve"
+SPDX-PackageSupplier = "Radek Janik <cyberwassp@gmail.com>"
+SPDX-PackageDownloadLocation = "https://github.com/w4sp0/ex_proxmox"
+
+[[annotations]]
+path = ["mix.lock"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Radek Janik <cyberwassp@gmail.com>"
+SPDX-License-Identifier = "MIT"
