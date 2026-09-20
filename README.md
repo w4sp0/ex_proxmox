@@ -48,6 +48,7 @@ end
 
 PVE.version(cluster)
 #=> {:ok, %{"version" => "8.2.4", "release" => "8.2", "repoid" => "..."}}
+```
 
 `PVE.Token.new/4` and `PVE.Cluster.new/3` validate their arguments and return
 `{:error, {field, reason}}` identifying the field at fault. The token secret
